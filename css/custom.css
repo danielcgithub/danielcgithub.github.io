@@ -1,0 +1,10 @@
+/*!
+ * Own personal css to overwrite bootstrap config.
+ */
+
+.download-section p {
+  background-color: #42DCA3;
+  /*font-weight: bold;*/
+  border-radius: 25px;
+  padding: 5px;
+}
