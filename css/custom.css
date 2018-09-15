@@ -3,32 +3,32 @@
  */
 
 .download-section p {
-  background-color: #7C8D9F;
+  background-color: #ffbb00;
   /*font-weight: bold;*/
   border-radius: 25px;
   padding: 5px;
 }
 
 .btn-default {
-    border: 1px solid #7C8D9F;
-    color: #7C8D9F;
-    background-color: transparent;
-}
-
-.btn-default:hover {
-    border: 1px solid #7C8D9F;
-    outline: 0;
-    color: #000;
+    border: 1px solid #ffbb00;
+    color: #ffbb00;
     background-color: #7C8D9F;
 }
 
+.btn-default:hover {
+    border: 1px solid #ffbb00;
+    outline: 0;
+    color: #000;
+    background-color: #ffbb00;
+}
+
 a {
-    color: #7C8D9F;
+    color: #ffbb00;
 }
 
 a:focus, a:hover {
     text-decoration: none;
-    color: #7C8D9F;
+    color: #ffbb00;
 }
 
 .iframe-container {
