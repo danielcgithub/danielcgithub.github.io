@@ -2,12 +2,6 @@
  * Own personal css to overwrite bootstrap config.
  */
 
-.download-section p {
-  background-color: #ffbb00;
-  /*font-weight: bold;*/
-  border-radius: 25px;
-  padding: 5px;
-}
 
 .btn-default {
     border: 1px solid #ffbb00;
