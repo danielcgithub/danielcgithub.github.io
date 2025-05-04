@@ -2,50 +2,37 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="">
-      <meta name="author" content="">
+      <meta name="description" content="Daniel Cunniffe's portfolio showcasing his work as a CICD DevOps Portfolio Architect.">
+      <meta name="author" content="Daniel Cunniffe">
+      <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' https://www.google-analytics.com https://static.hotjar.com https://cdnjs.cloudflare.com https://maps.googleapis.com https://www.goodreads.com;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    img-src 'self' data: https://www.google.com https://www.linkedin.com https://www.twitter.com https://www.medium.com;
+    font-src 'self' https://fonts.gstatic.com;
+    frame-src https://www.google.com https://www.goodreads.com;
+    connect-src 'self' https://www.google-analytics.com https://static.hotjar.com;
+">
       <title>Daniel Cunniffe</title>
       <!-- Bootstrap Core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <!-- Custom Fonts -->
       <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
-         type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <!-- Theme CSS -->
       <link href="css/grayscale.min.css" rel="stylesheet">
       <!-- Personal Custom CSS -->
       <link href="css/custom.css" rel="stylesheet">
-      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
       <!-- Google Analytics -->
+      <script async src="https://www.google-analytics.com/analytics.js"></script>
       <script>
          window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
          ga('create', 'UA-98362184-1', 'auto');
          ga('send', 'pageview');
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
       </script>
-      <!-- Hotjar Tracking Code for https://danielcgithub.github.io/ -->
+      <!-- Hotjar Tracking Code -->
       <script>
          (function(h,o,t,j,a,r){
              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -56,8 +43,6 @@
              a.appendChild(r);
          })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
       </script>
-      <script async src='https://www.google-analytics.com/analytics.js'></script>
-      <!-- End Google Analytics -->
    </head>
    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
       <!-- Navigation -->
@@ -71,24 +56,22 @@
                <i class="fa fa-hand-peace-o"></i>
                </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                <ul class="nav navbar-nav">
-                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                   <li class="hidden">
                      <a href="#page-top"></a>
                   </li>
                   <li>
-                     <a href="mailto:d.cunniffe.ie@gmail.com"> <i class="fa fa-envelope-o"></i></a>
+                     <a href="mailto:d.cunniffe.ie@gmail.com" rel="noopener noreferrer"> <i class="fa fa-envelope-o"></i></a>
                   </li>
                   <li>
-                     <a href="https://www.linkedin.com/in/cunniffed/"> <i class="fa fa-linkedin-square"></i></a>
+                     <a href="https://www.linkedin.com/in/cunniffed/" target="_blank" rel="noopener noreferrer"> <i class="fa fa-linkedin-square"></i></a>
                   </li>
                   <li>
-                     <a href="https://twitter.com/danielcunniffe"> <i class="fa fa-twitter-square"></i></a>
+                     <a href="https://twitter.com/danielcunniffe" target="_blank" rel="noopener noreferrer"> <i class="fa fa-twitter-square"></i></a>
                   </li>
                   <li>
-                     <a href="https://medium.com/@daniel_cunniffe"><i class="fa fa-medium"></i></a>
+                     <a href="https://medium.com/@daniel_cunniffe" target="_blank" rel="noopener noreferrer"><i class="fa fa-medium"></i></a>
                   </li>
                   <li>
                      <a class="page-scroll" href="#about">About Daniel</a>
@@ -104,9 +87,7 @@
                   </li>
                </ul>
             </div>
-            <!-- /.navbar-collapse -->
          </div>
-         <!-- /.container -->
       </nav>
       <!-- Intro Header -->
       <header class="intro">
@@ -131,37 +112,14 @@
          <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                <h2>About Daniel</h2>
-               <img src="img/headshot_2.jpg" width="50%" class="img-circle img-responsive center-block" alt="Headshot">
-               <p>Daniel is a Software Engineer currently working as a CICD DevOps Portfolio Architect in LMI Ericsson with focus on
-                  CICD, Cloud Native & Release.
-               </p>
-               <p>
-                  Officially, the main part of Daniels job is to create a vision of what to build and convey that
-                  vision
-                  to
-                  the
-                  development teams in a clear and simple manner.
-               </p>
-               <p>
-                  That's just a simple way of saying that he loves to think of ideas to build, lead and drive the
-                  direction
-                  of products and to work with and support teams to achieve goals in a lean and agile manner to
-                  continuously
-                  provide
-                  value to the organisation.
-               </p>
-               <h3><i class="fa fa-link" aria-hidden="true"></i><a href="resume.html"> Link to Daniels Resume</a></h3>
-               <p>
-                  Daniel is passionate about all sports but really football (life long Liverpool supporter),
-                  rugby and golf.
-               </p>
-               <p>
-                  He really enjoys keeping fit, sketching, hiking and music.
-               </p>
-               <p>
-                  However, his leading hobby is reading in which he has a particular interest in Crime, Thrillers and
-                  Technology/Business related books.
-               </p>
+               <img src="img/headshot_2.jpg" width="50%" class="img-circle img-responsive center-block" alt="Daniel's Headshot">
+               <p>Daniel is a Software Engineer currently working as a CICD DevOps Portfolio Architect in LMI Ericsson with focus on CICD, Cloud Native & Release.</p>
+               <p>Officially, the main part of Daniel's job is to create a vision of what to build and convey that vision to the development teams in a clear and simple manner.</p>
+               <p>That's just a simple way of saying that he loves to think of ideas to build, lead and drive the direction of products and to work with and support teams to achieve goals in a lean and agile manner to continuously provide value to the organisation.</p>
+               <h3><i class="fa fa-link" aria-hidden="true"></i><a href="resume.html"> Link to Daniel's Resume</a></h3>
+               <p>Daniel is passionate about all sports but really football (life long Liverpool supporter), rugby and golf.</p>
+               <p>He really enjoys keeping fit, sketching, hiking and music.</p>
+               <p>However, his leading hobby is reading in which he has a particular interest in Crime, Thrillers and Technology/Business related books.</p>
             </div>
          </div>
       </section>
@@ -180,7 +138,7 @@
          <h2>Where has Daniel travelled?</h2>
          <div class="iframe-container">
             <iframe class="iframe"
-               src="https://www.google.com/maps/d/u/0/embed?mid=1WRxJ6pvga_m2YX-uAvZDVKoRtZ8"></iframe>
+               src="https://www.google.com/maps/d/u/0/embed?mid=AIzaSyCp_fZzK3tPAthRTg4X6Q_gppKAjF_A6Xc"></iframe>
          </div>
       </section>
       <!-- Medium Posts Section -->
@@ -243,19 +201,21 @@
       <!-- Footer -->
       <footer>
          <div class="container text-center">
-            <p>Copyright &copy; Daniel Cunniffe 2019</p>
+            <p>Copyright &copy; <span id="year"></span> Daniel Cunniffe</p>
          </div>
       </footer>
+      <script>
+         document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
       <!-- jQuery -->
-      <script src="vendor/jquery/jquery.js"></script>
+      <script src="vendor/jquery/jquery.js" defer></script>
       <!-- Bootstrap Core JavaScript -->
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.min.js" defer></script>
       <!-- Plugin JavaScript -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-      <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-      <script type="text/javascript"
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" defer></script>
+      <!-- Google Maps API Key -->
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_SECURE_API_KEY&sensor=false" defer></script>
       <!-- Theme JavaScript -->
-      <script src="js/grayscale.min.js"></script>
+      <script src="js/grayscale.min.js" defer></script>
    </body>
 </html>
