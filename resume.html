@@ -1,136 +1,422 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <title>Resume/CV</title>
-      <!-- Meta -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Daniel Cunniffe's responsive HTML5 Resume/CV showcasing his work as a CICD DevOps Portfolio Architect.">
-      <meta name="author" content="Daniel Cunniffe">
-      <link rel="shortcut icon" href="favicon.ico">
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
-      <!-- Global CSS -->
-      <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-      <!-- Plugins CSS -->
-      <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
-      <!-- Theme CSS -->
-      <link id="theme-style" rel="stylesheet" href="css/resume-styles.css">
-      <!-- Hotjar Tracking Code -->
-      <script>
-         (function (h, o, t, j, a, r) {
-             h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-             h._hjSettings = { hjid: 903130, hjsv: 6 };
-             a = o.getElementsByTagName('head')[0];
-             r = o.createElement('script'); r.async = 1;
-             r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-             a.appendChild(r);
-         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-      </script>
-   </head>
-   <body>
-      <div class="wrapper">
-         <div class="sidebar-wrapper">
-            <div class="profile-container">
-               <img class="img-circle" src="img/headshot.jpg" alt="Daniel's Headshot" />
-               <h1 class="name">Daniel Cunniffe</h1>
-               <h3 class="tagline">Software Engineer</h3>
-            </div>
-            <!--//profile-container-->
-            <div class="contact-container container-block">
-               <ul class="list-unstyled contact-list">
-                  <li class="location">
-                     <a href="https://www.google.com/maps/place/Athlone,+Co.+Westmeath/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-map-marker"></i> Athlone, Ireland
-                     </a>
-                  </li>
-                  <li class="email">
-                     <a href="mailto:d.cunniffe.ie@gmail.com">
-                        <i class="fa fa-envelope"></i> d.cunniffe.ie@gmail.com
-                     </a>
-                  </li>
-                  <li class="phone">
-                     <a href="tel:0861261880">
-                        <i class="fa fa-phone"></i> 086 1261880
-                     </a>
-                  </li>
-                  <li class="linkedin">
-                     <a href="https://www.linkedin.com/in/cunniffed/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-linkedin-square"></i> in/cunniffed/
-                     </a>
-                  </li>
-                  <li class="twitter">
-                     <a href="https://twitter.com/danielcunniffe" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-twitter-square"></i> @DanielCunniffe
-                     </a>
-                  </li>
-                  <li class="github">
-                     <a href="https://github.com/danielcgithub" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-github"></i> danielcgithub
-                     </a>
-                  </li>
-                  <li class="medium">
-                     <a href="https://medium.com/@daniel_cunniffe" target="_blank" rel="noopener noreferrer">
-                        <i class="fa fa-medium"></i> @daniel_cunniffe
-                     </a>
-                  </li>
-               </ul>
-            </div>
-            <!--//contact-container-->
-            <div class="education-container container-block">
-               <h2 class="container-block-title">Education</h2>
-               <div class="item">
-                  <h4 class="degree">MSc in Applied Software Engineering</h4>
-                  <h5 class="meta">Athlone Institute of Technology</h5>
-                  <h6 class="meta">First Class Honours</h6>
+<!--[if IE 8]>
+<html lang="en" class="ie8">
+   <![endif]-->
+   <!--[if IE 9]>
+   <html lang="en" class="ie9">
+      <![endif]-->
+      <!--[if !IE]><!-->
+      <html lang="en">
+         <!--<![endif]-->
+         <head>
+            <title> Resume/CV</title>
+            <!-- Meta -->
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+            <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+            <link rel="shortcut icon" href="favicon.ico">
+            <link
+               href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+               rel='stylesheet' type='text/css'>
+            <!-- Global CSS -->
+            <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+            <!-- Plugins CSS -->
+            <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
+            <!-- Theme CSS -->
+            <link id="theme-style" rel="stylesheet" href="css/resume-styles.css">
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+            <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+            <!-- Hotjar Tracking Code for https://danielcgithub.github.io/ -->
+            <script>
+               (function (h, o, t, j, a, r) {
+                   h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+                   h._hjSettings = { hjid: 903130, hjsv: 6 };
+                   a = o.getElementsByTagName('head')[0];
+                   r = o.createElement('script'); r.async = 1;
+                   r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                   a.appendChild(r);
+               })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+               
+            </script>
+         </head>
+         <body>
+            <div class="wrapper">
+               <div class="sidebar-wrapper">
+                  <div class="profile-container">
+                     <img class="img-circle" src="img/headshot.jpg" alt="" />
+                     <h1 class="name">Daniel Cunniffe</h1>
+                     <h3 class="tagline">Software Engineer</h3>
+                  </div>
+                  <!--//profile-container-->
+                  <div class="contact-container container-block">
+                     <ul class="list-unstyled contact-list">
+                        <li class="location">
+                           <a
+                              href="https://www.google.com/maps/place/Athlone,+Co.+Westmeath/@53.4232438,-7.9490146,14z/data=!3m1!4b1!4m5!3m4!1s0x485c49013e648c9f:0xdaf91a8d46bde380!8m2!3d53.4239331!4d-7.9406898">
+                           <i class="fa fa-map-marker"></i>
+                           </a>
+                           <a
+                              href="https://www.google.com/maps/place/Athlone,+Co.+Westmeath/@53.4232438,-7.9490146,14z/data=!3m1!4b1!4m5!3m4!1s0x485c49013e648c9f:0xdaf91a8d46bde380!8m2!3d53.4239331!4d-7.9406898">Athlone,
+                           Ireland</a>
+                        </li>
+                        <li class="email">
+                           <a href="mailto: d.cunniffe.ie@gmail.com">
+                           <i class="fa fa-envelope"></i>
+                           </a>
+                           <a href="mailto: d.cunniffe.ie@gmail.com">d.cunniffe.ie@gmail.com</a>
+                        </li>
+                        <li class="phone">
+                           <a href="tel:086 1261880">
+                           <i class="fa fa-phone"></i>
+                           </a>
+                           <a href="tel:086 1261880">086 1261880</a>
+                        </li>
+                        <li class="linkedin">
+                           <a href="https://www.linkedin.com/in/cunniffed/">
+                           <i class="fa fa-linkedin-square fa-5x"></i>
+                           </a>
+                           <a href="https://www.linkedin.com/in/cunniffed/" target="_blank">in/cunniffed/</a>
+                        </li>
+                        <li class="twitter">
+                           <a href="https://twitter.com/danielcunniffe">
+                           <i class="fa fa-twitter-square fa-5x"></i>
+                           </a>
+                           <a href="https://twitter.com/danielcunniffe" target="_blank">@DanielCunniffe</a>
+                        </li>
+                        <li class="github">
+                           <a href="https://github.com/danielcgithub">
+                           <i class="fa fa-github fa-5x"></i>
+                           </a>
+                           <a href="https://github.com/danielcgithub" target="_blank">danielcgithub</a>
+                        </li>
+                        <li class="medium">
+                           <a href="https://medium.com/@daniel_cunniffe">
+                           <i class="fa fa-medium fa-5x"></i>
+                           </a>
+                           <a href="https://medium.com/@daniel_cunniffe" target="_blank">@daniel_cunniffe</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!--//contact-container-->
+                  <div class="education-container container-block">
+                     <h2 class="container-block-title">Education</h2>
+                     <div class="item">
+                        <h4 class="degree">MSc in Applied Software Engineering</h4>
+                        <h5 class="meta">Athlone Institute of Technology</h5>
+                        <h6 class="meta">First Class Honours</h6>
+                     </div>
+                     <!--//item-->
+                     <div class="item">
+                        <h4 class="degree">BEng in Civil Engineering</h4>
+                        <h5 class="meta">National University of Ireland, Galway</h5>
+                        <h6 class="meta">First Class Honours</h6>
+                     </div>
+                     <!--//item-->
+                  </div>
+                  <!--//education-container-->
+                  <div class="languages-container container-block">
+                     <h2 class="container-block-title">Languages</h2>
+                     <ul class="list-unstyled interests-list">
+                        <li>English
+                           <span class="lang-desc">(Native)</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <!--//languages-->
+                  <div class="keyskills-container container-block">
+                     <h2 class="container-block-title">Key Skills</h2>
+                     <ul class="list-unstyled keyskills-list">
+                        <li>Technical Leadership</li>
+                        <li>Strategic Thinking</li>
+                        <li>Clear & Concise Communication</li>
+                        <li>Collect & Analyse Data</li>
+                        <li>Ability to Prioritize</li>
+                     </ul>
+                  </div>
+                  <!--//key skills-->
+                  <div class="interests-container container-block">
+                     <h2 class="container-block-title">Hobbies</h2>
+                     <ul class="list-unstyled interests-list">
+                        <li>Reading</li>
+                        <li>Travel</li>
+                        <li>Sport</li>
+                        <li>Cooking</li>
+                     </ul>
+                  </div>
+                  <!--//interests-->
                </div>
-               <div class="item">
-                  <h4 class="degree">BEng in Civil Engineering</h4>
-                  <h5 class="meta">National University of Ireland, Galway</h5>
-                  <h6 class="meta">First Class Honours</h6>
+               <!--//sidebar-wrapper-->
+               <div class="main-wrapper">
+                  <section class="section summary-section">
+                     <h2 class="section-title">
+                        <i class="fa fa-user"></i>Career Profile
+                     </h2>
+                     <div class="summary">
+                        <p>Fast learning Software Engineer currently working as a CICD DevOps
+                           architect for the Network Management Portfolio in Ericsson.
+                        </p>
+                        <ul class="fa-ul">
+                           <li>
+                              <i class="fa-li fa fa-square"></i>Strong expertise in leading CI/CD initiatives, driving automation, and
+                              optimizing software delivery processes to achieve faster time-tomarket and improved quality.
+                           </li>
+                           <li>
+                              <i class="fa-li fa fa-square"></i>Adept at collaborating with cross-functional teams, including
+                              developers, testers, and operations, to foster a culture of continuous
+                              integration, continuous deployment, and continuous improvement
+                              throughout the software development lifecycle
+                           </li>
+                           <li>
+                              <i class="fa-li fa fa-square"></i>Skilled in effectively utilizing popular DevOps tools and technologies
+                              like Spinnaker, Jenkins, Git, Docker, Helm, Kubernetes, and scripting
+                              languages to drive streamlined and scalable software development
+                              and deployment processes.
+                           </li>
+                           <li>
+                              <i class="fa-li fa fa-square"></i>Exceptional communication, organisational, team leading
+                              and mentorship skills
+                           </li>
+                        </ul>
+                     </div>
+                     <!--//summary-->
+                  </section>
+                  <!--//section-->
+                  <section class="section experiences-section">
+                     <h2 class="section-title">
+                        <i class="fa fa-briefcase"></i>Experiences
+                     </h2>
+                     <div class="item">
+                        <div class="meta">
+                           <div class="upper-row">
+                              <h3 class="job-title">NM CICD DevOps Portfolio Architect</h3>
+                              <div class="time">June 2023 - Present</div>
+                           </div>
+                           <!--//upper-row-->
+                           <div class="company">
+                              <img alt="Ericsson" title="Ericsson" src="img/ericsson.png"
+                                 style="width:50px;height:50px;" />LMI
+                              Ericsson, Ireland
+                           </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                           <p>Responsible for setting the strategic direction and the evolution of the CI/CD&D pipelines enabling the automated delivery & deployment of SW from development teams to pre-production and production environments
+                           </p>
+                        </div>
+                        <!--//details-->
+                     </div>
+                     <!--//item-->
+                     <div class="item">
+                        <div class="meta">
+                           <div class="upper-row">
+                              <h3 class="job-title">Technical Engineering Manager</h3>
+                              <div class="time">January 2020 - June 2023</div>
+                           </div>
+                           <!--//upper-row-->
+                           <div class="company">
+                              <img alt="Ericsson" title="Ericsson" src="img/ericsson.png"
+                                 style="width:50px;height:50px;" />LMI
+                              Ericsson, Ireland
+                           </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                           <p>Responsible for the development and execution of CI/CD strategy for the Release Management
+                              Department
+                           </p>
+                           <p>Influence the evolution towards the Release of Cloud Native Applications in PDU OSS</p>
+                           <p>Lead the Release Development Unit, aligning its output with Program needs and overall Release
+                              Strategy
+                           </p>
+                        </div>
+                        <!--//details-->
+                     </div>
+                     <!--//item-->
+                     <div class="item">
+                        <div class="meta">
+                           <div class="upper-row">
+                              <h3 class="job-title">Lead Technical Product Owner</h3>
+                              <div class="time">April 2018 - January 2020</div>
+                           </div>
+                           <!--//upper-row-->
+                           <div class="company">
+                              <img alt="Ericsson" title="Ericsson" src="img/ericsson.png"
+                                 style="width:50px;height:50px;" />LMI
+                              Ericsson, Ireland
+                           </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                           <p>Defined the strategic vision for the internal CICD & Release tools
+                              through collaborative discussions with diverse stakeholders,
+                              effectively communicating and aligning the vision across teams.
+                           </p>
+                           <p>Fostered cross-departmental collaboration, establishing strong
+                              partnerships, and ensuring a cohesive approach towards achieving
+                              shared goals.
+                           </p>
+                           <p>Drove value-driven decision-making, setting clear priorities for
+                              backlog(s) based on strategic objectives and business needs.
+                           </p>
+                        </div>
+                        <!--//details-->
+                     </div>
+                     <!--//item-->
+                     <div class="item">
+                        <div class="meta">
+                           <div class="upper-row">
+                              <h3 class="job-title">Product Owner</h3>
+                              <div class="time">May 2019 - Present</div>
+                           </div>
+                           <!--//upper-row-->
+                           <div class="company">
+                              <img alt="Ericsson" title="Ericsson" src="img/ericsson.png"
+                                 style="width:50px;height:50px;" />LMI
+                              Ericsson, Ireland
+                           </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                           <p>Product owner of a team developing a Spring Boot based microservice chassis with the aim of
+                              fulfilling cross cutting concerns in a standardised way
+                           </p>
+                           <p>Aim to reduce the learning/timing curve for developers of microservices</p>
+                           <p>Deliver best practice CICD pipeline for developers to adopt easily</p>
+                           <p>Collaborate in Cloud Native forum to achieve aligned strategic direction</p>
+                        </div>
+                        <!--//details-->
+                     </div>
+                     <!--//item-->
+                     <div class="item">
+                        <div class="meta">
+                           <div class="upper-row">
+                              <h3 class="job-title">Technical Product Owner</h3>
+                              <div class="time">September 2016 - April 2018</div>
+                           </div>
+                           <!--//upper-row-->
+                           <div class="company">
+                              <img alt="Ericsson" title="Ericsson" src="img/ericsson.png"
+                                 style="width:50px;height:50px;" />LMI
+                              Ericsson, Ireland
+                           </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                           <p>Worked as a technical product owner of two cross functional agile teams exhibiting excellent
+                              communication,
+                              presentation and interpersonal skills
+                           </p>
+                           <p>Had full ownership of building new products and features from scratch, including vision,
+                              business
+                              strategy, research, implementation & user testing.
+                           </p>
+                           <p>Collected data and translated customer needs and requirements into valuable user stories the
+                              team(s) can easily understand
+                           </p>
+                           <p>Consistently delivered high value products with quality on time</p>
+                        </div>
+                        <!--//details-->
+                     </div>
+                     <!--//item-->
+                  </section>
+                  <!--//section-->
+                  <section class="section projects-section">
+                     <h2 class="section-title">
+                        <i class="fa fa-spinner"></i>Some Technologies I Have Worked With
+                     </h2>
+                     <ul class="fa-ul">
+                        <li>
+                           <i class="fa-li fa fa-square"></i> MEAN (Mongo, Express, Angular, NodeJS) Stack
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Python
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Java, Spring
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Jenkins, Spinnaker
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Monitoring & Observability Tech. e.g. Prometheus, Grafana
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Docker, Kubernetes & Helm
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Linux
+                        </li>
+                     </ul>
+                  </section>
+                  <!--//section-->
+                  <section class="section projects-section">
+                     <h2 class="section-title">
+                        <i class="fa fa-spinner"></i>Interests
+                     </h2>
+                     <ul class="fa-ul">
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Product management
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> DevOps, Microservices & Cloud Technologies
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Lean/Lean Start-up/User Centered Design Methodologies
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Agile Methodologies/Extreme Programming
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Continuous Integration & Continuous Deployment/Delivery
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Automation
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Software Development Practices
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Continuous Improvement
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Team building
+                        </li>
+                        <li>
+                           <i class="fa-li fa fa-square"></i> Organisational Management
+                        </li>
+                     </ul>
+                  </section>
+                  <!--//section-->
+                  <div class="container">
+                     <div class="navbar-header">
+                        <a href="https://www.dropbox.com/s/2va0yvq4agla3um/CV_Resume.pdf?dl=1">
+                        <i class="fa fa-download fa-lg"></i>
+                        </a>
+                        <a href="https://www.dropbox.com/s/2va0yvq4agla3um/CV_Resume.pdf?dl=1">PDF</a>
+                     </div>
+                  </div>
                </div>
+               <!--//main-body-->
             </div>
-            <!--//education-container-->
-            <div class="languages-container container-block">
-               <h2 class="container-block-title">Languages</h2>
-               <ul class="list-unstyled interests-list">
-                  <li>English <span class="lang-desc">(Native)</span></li>
-               </ul>
-            </div>
-            <!--//languages-->
-            <div class="keyskills-container container-block">
-               <h2 class="container-block-title">Key Skills</h2>
-               <ul class="list-unstyled keyskills-list">
-                  <li>Technical Leadership</li>
-                  <li>Strategic Thinking</li>
-                  <li>Clear & Concise Communication</li>
-                  <li>Collect & Analyse Data</li>
-                  <li>Ability to Prioritize</li>
-               </ul>
-            </div>
-            <!--//key skills-->
-         </div>
-         <!--//sidebar-wrapper-->
-         <div class="main-wrapper">
-            <section class="section summary-section">
-               <h2 class="section-title"><i class="fa fa-user"></i> Career Profile</h2>
-               <div class="summary">
-                  <p>Fast learning Software Engineer currently working as a CICD DevOps architect for the Network Management Portfolio in Ericsson.</p>
-               </div>
-            </section>
-            <!--//section-->
             <footer class="footer">
                <div class="text-center">
-                  <p>Copyright &copy; <span id="year"></span> Daniel Cunniffe</p>
+                  <a href="https://danielcunniffe.com/" class="btn btn-default btn-lg">
+                  <i class="fa fa-home"></i>
+                  <span class="network-name">Return to Homepage</span>
+                  </a>
                </div>
+               <!--//container-->
             </footer>
-         </div>
-      </div>
-      <script>
-         document.getElementById('year').textContent = new Date().getFullYear();
-      </script>
-      <!-- Javascript -->
-      <script src="vendor/jquery/jquery.js" defer></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js" defer></script>
-   </body>
-</html>
+            <!--//footer-->
+            <!-- Javascript -->
+            <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+            <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+            <!-- custom js -->
+            <script type="text/javascript" src="assets/js/main.js"></script>
+         </body>
+      </html>
